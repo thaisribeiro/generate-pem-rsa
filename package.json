@@ -7,7 +7,7 @@
     "pem",
     "keycloak"
   ],
-  "main": "./dist/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
     "build": "babel --ignore=node_modules ../generate-pem-rsa -d ./dist && cp -r node_modules ./dist/node_modules"
