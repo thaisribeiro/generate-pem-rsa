@@ -1,0 +1,52 @@
+{
+  "name": "generate-pem-rsa",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "rsa",
+    "pem",
+    "keycloak"
+  ],
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel --ignore=node_modules ../generate-pem-rsa -d ./dist && cp -r node_modules ./dist/node_modules"
+  },
+  "author": "thaisribeiro2008@gmail.com",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "codecov": "^3.1.0",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "globals": {
+      "NODE_ENV": "test"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ],
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  }
+}
