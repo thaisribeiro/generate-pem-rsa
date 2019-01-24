@@ -29,4 +29,4 @@ npm run test
 
 ## Meta
 
-Thais Ribeiro - thaisnribeiro@gmail.com
+Thais Ribeiro - thaisnribeiro2008@gmail.com
