@@ -1,6 +1,6 @@
 {
   "name": "generate-pem-rsa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates PEM with public key RSA",
   "homepage": "https://github.com/thaisribeiro/generate-pem-rsa",
   "repository": {
@@ -12,7 +12,7 @@
     "pem",
     "keycloak"
   ],
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "babel --ignore=node_modules ../generate-pem-rsa -d ./dist && cp -r node_modules ./dist/node_modules"
