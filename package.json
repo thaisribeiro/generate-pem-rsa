@@ -1,6 +1,6 @@
 {
   "name": "generate-pem-rsa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates PEM with public key RSA",
   "homepage": "https://github.com/thaisribeiro/generate-pem-rsa",
   "repository": {
